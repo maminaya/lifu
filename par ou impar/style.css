@@ -1,0 +1,16 @@
+*{
+    background-size: 1500px;
+    font-style: italic;
+    font-family: Helvetica;
+    border-radius: 10px;
+}
+h1{
+    display: center;
+    align-items: center;
+}
+#margem-body{
+    height: 250px;
+    width: 450px;
+    color: white;
+    font-family: monospace;
+}

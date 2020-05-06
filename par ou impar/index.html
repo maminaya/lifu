@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="ico/question.png" rel="shortcut icon">
+    </head>
+    <body background="bg/lousa.jpg" bgproperties="fixed">
+        <fieldset id="margem-body">
+            <legend><span>|</span><span id="developedBy">developedByJonnyCastro</span><span>|</span></legend>
+            <div class="container">
+                <h1>Par ou Impar?</h1>
+            </div>
+            <div class="element">
+                <form action="" method="dialog">
+                    <label for="inputNumber">Insira ao lado o número:</label>
+                    <input id="inputNumber" type="number" placeholder="Apenas números">
+                    
+                    <button id="buttonRun" onClick="rodar()">
+                        Run
+                    </button>
+                    <input type="reset" class="button" name="buttonReset" value="Reset">
+                </form>
+                <br>
+                <div class="paragraph">
+                    <p>Resultado:</p>
+                    <p id="result"></p>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </fieldset>
+    </body>
+</html>
